@@ -1,5 +1,24 @@
 # Ygor's dotfiles
 
+Features dotfiles and configs for:
+
+- Neovim (through Lazyvim)
+- Starship
+- Yazi
+- Ghostty
+- VS Code
+- Colima
+- `.zsh`
+  - `nvm`
+  - `chruby`
+  - `pnpm`
+  - Starship
+  - `eza` aliases
+  - Default editor to `nvim`
+  - Improved command history
+  - Docker
+  - Syntax highlighting
+
 ## Clone this repository in your user directory (`~`)
 
 ```bash
