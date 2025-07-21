@@ -39,3 +39,6 @@ bindkey "^[[B" down-line-or-beginning-search
 
 # Docker
 export DOCKER_BUILDKIT=1
+
+# Syntax highlighting
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

@@ -22,6 +22,7 @@ brew install starship
 brew install webp
 brew install yazi
 brew install bat
+brew install zsh-syntax-highlighting
 
 # Docker
 brew install colima
