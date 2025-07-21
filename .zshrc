@@ -18,10 +18,18 @@ case ":$PATH:" in
 esac
 # pnpm end
 
+export GPG_TTY=$(tty)
+
+# Created by `pipx` on 2025-03-13 18:32:06
+export PATH="$PATH:/Users/ygor/.local/bin"
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
+
 # Starship
 eval "$(starship init zsh)"
 
-# eza
+# eza aliases
 alias ls='eza -a --icons -F -H --group-directories-first --git -1'
 alias l='ls'
 alias ll='ls -alF'

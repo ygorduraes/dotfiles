@@ -20,7 +20,7 @@ source brew.sh
 
 ## Simulate stow
 
-Run this command to first simulate the config files linking and decide if you want to mass link all the files or manually copy them over to their directories
+Run this command to first simulate the config files linking *to your git repository* and decide if you want to mass link all the files or manually copy them over to their directories
 
 ```bash
 stow --adopt -nv .
@@ -28,7 +28,7 @@ stow --adopt -nv .
 
 ## Link files
 
->🚨All your config files will be overwritten with the ones from this repository
+This command will effectively link all the files but if you have any existing files already (e.g. `.zshrc`), stow will overwrite it in the repository, so you will have to cherry pick the changes or just reset the repo with `git restore .`
 
 ```bash
 stow --adopt -n .
