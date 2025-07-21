@@ -10,7 +10,7 @@ cd dotfiles
 
 ## Install homebrew packages
 
-Not mandatory, but check if at least stow and apps that are loaded in your `.zshrc` are installed
+Not mandatory, but check if at least `stow` and apps that are loaded in your `.zshrc` are installed
 
 E.g. if you're using Linux and don't need to install `colima`, you'd better skip this step
 
@@ -40,7 +40,7 @@ stow --adopt -n .
 
 ## Dealing with the `plist` files
 
-`plist` files are ignored through `.stow-local-ignore` because of how homebrew deals with service configurations (there's a fixed version in the path), so you have to copy them to their directory e.g. `/opt/homebrew/Cellar/colima`
+`plist` files are ignored through `.stow-local-ignore` because of how Homebrew deals with service configurations (there's a fixed version in the path), so you have to copy them to their directory e.g. `/opt/homebrew/Cellar/colima`
 
 ## Cleaning up all symbolic links
 
