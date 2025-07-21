@@ -10,11 +10,15 @@ cd dotfiles
 
 ## Install homebrew packages
 
+Not mandatory, but check if at least stow and other apps that are loaded in your `.zshrc` are installed
+
 ```bash
 source brew.sh
 ```
 
 ## Simulate stow
+
+Run this command to first simulate the config files linking and decide if you want to mass link all the files or manually copy them over to their directories
 
 ```bash
 stow --adopt -nv .
@@ -22,7 +26,7 @@ stow --adopt -nv .
 
 ## Link files
 
->🚨All files will be overwritten
+>🚨All your config files will be overwritten with the ones from this repository
 
 ```bash
 stow --adopt -n .
