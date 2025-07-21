@@ -12,6 +12,8 @@ cd dotfiles
 
 Not mandatory, but check if at least stow and other apps that are loaded in your `.zshrc` are installed
 
+E.g. if you're using Linux and don't need to install `colima`, you'd better skip this step
+
 ```bash
 source brew.sh
 ```
