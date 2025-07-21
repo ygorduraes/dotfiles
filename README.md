@@ -1,4 +1,4 @@
-# Ygor's dotfiles
+# Ygor's macOS dotfiles
 
 Features dotfiles and configs for:
 
