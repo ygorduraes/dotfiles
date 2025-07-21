@@ -3,7 +3,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# ruby
+# chruby
 if [ -n "$BASH_VERSION" ] || [ -n "$ZSH_VERSION" ]; then
   source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
   source /opt/homebrew/opt/chruby/share/chruby/auto.sh
@@ -21,7 +21,7 @@ esac
 # Starship
 eval "$(starship init zsh)"
 
-# Aliases
+# eza
 alias ls='eza -a --icons -F -H --group-directories-first --git -1'
 alias l='ls'
 alias ll='ls -alF'
