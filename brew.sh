@@ -11,7 +11,7 @@ brew install gnupg
 brew install neovim
 brew install stow
 brew install font-symbols-only-nerd-font
-brew install ghostty
+brew install --cask ghostty
 brew install rsync
 brew install eza
 brew install fd
@@ -21,6 +21,7 @@ brew install nmap
 brew install starship
 brew install webp
 brew install yazi
+brew install bat
 
 # Docker
 brew install colima
@@ -29,6 +30,7 @@ brew install docker
 brew install docker-compose
 brew install docker-buildx
 brew install docker-credential-helper
+brew install lazydocker
 
 # Development
 brew install lazygit
