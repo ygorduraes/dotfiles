@@ -1,5 +1,13 @@
 # Ygor's dotfiles
 
+## Clone this repository in your user directory
+
+```bash
+cd ~
+git clone git@github.com:ygorduraes/dotfiles.git
+cd dotfiles
+```
+
 ## Install homebrew packages
 
 ```bash
