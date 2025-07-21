@@ -1,4 +1,6 @@
 \.DS_Store
+^/plist
+^/brew.sh
 
 RCS
 .+,v
