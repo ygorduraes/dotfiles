@@ -41,3 +41,4 @@ brew install uv
 brew install http-server
 brew install sqlite
 brew install rainfrog
+brew install gh
