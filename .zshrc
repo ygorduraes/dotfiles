@@ -1,27 +1,17 @@
-# nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# chruby
-if [ -n "$BASH_VERSION" ] || [ -n "$ZSH_VERSION" ]; then
-  source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
-  source /opt/homebrew/opt/chruby/share/chruby/auto.sh
-  chruby ruby-3.3.4
-fi
+# Starship
+eval "$(starship init zsh)"
 
 # pnpm
-export PNPM_HOME="/Users/ygor/Library/pnpm"
+export PNPM_HOME="$HOME/Library/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
 
-# Starship
-eval "$(starship init zsh)"
+. "$HOME/.local/bin/env"
 
-# eza aliases
+# Aliases
 alias ls='eza -a --icons -F -H --group-directories-first --git -1'
 alias l='ls'
 alias ll='ls -alF'

@@ -4,11 +4,6 @@ return {
     opts = {
       picker = {
         hidden = true,
-        formatters = {
-          file = {
-            truncate = 300,
-          },
-        },
       },
     },
   },
