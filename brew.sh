@@ -24,6 +24,7 @@ brew install yazi
 brew install bat
 brew install zsh-syntax-highlighting
 brew install tree
+brew install glow
 
 # Docker
 brew install colima
