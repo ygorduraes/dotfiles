@@ -54,7 +54,7 @@ This command will effectively link all the files but if you have any existing fi
 New files will be linked normally to your user directory
 
 ```bash
-stow --adopt -n .
+stow --adopt -v .
 ```
 
 ## Dealing with the `plist` files
