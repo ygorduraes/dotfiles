@@ -46,3 +46,4 @@ background-opacity = 0.9
 background-blur = 30
 keybind = super+shift+s=toggle_split_zoom
 keybind = shift+enter=text:\n
+theme = dark:Github-Dark-Default,light:Github-Light-Default
