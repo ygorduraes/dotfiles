@@ -55,5 +55,7 @@
     "editor.defaultFormatter": "ms-azuretools.vscode-containers"
   },
   "editor.tabSize": 2,
-  "javascript.format.indentSwitchCase": false
+  "javascript.format.indentSwitchCase": false,
+  "workbench.colorTheme": "Default Light Modern",
+  "window.autoDetectColorScheme": true
 }
