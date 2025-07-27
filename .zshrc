@@ -9,8 +9,6 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-. "$HOME/.local/bin/env"
-
 # Aliases
 alias ls='eza -a --icons -F -H --group-directories-first --git -1'
 alias l='ls'
