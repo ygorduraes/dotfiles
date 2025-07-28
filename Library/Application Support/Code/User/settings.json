@@ -57,5 +57,8 @@
   "editor.tabSize": 2,
   "javascript.format.indentSwitchCase": false,
   "workbench.colorTheme": "Default Light Modern",
-  "window.autoDetectColorScheme": true
+  "window.autoDetectColorScheme": true,
+  "chat.instructionsFilesLocations": {
+    "../.github/instructions": true
+  }
 }
