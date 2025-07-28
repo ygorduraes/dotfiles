@@ -36,6 +36,7 @@ brew install docker-credential-helper
 brew install lazydocker
 
 # Development
+brew instsall pnpm
 brew install lazygit
 brew install nvm
 brew install chruby
