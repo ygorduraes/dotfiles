@@ -61,6 +61,6 @@
   "chat.instructionsFilesLocations": {
     "../.github/instructions": true
   },
-  "workbench.preferredLightColorTheme": "Solarized Light",
+  "workbench.preferredLightColorTheme": "HBuilderX Soft Green Light",
   "workbench.preferredDarkColorTheme": "Monokai Pro (Filter Machine)"
 }
