@@ -1,0 +1,16 @@
+{
+	"ignored_packages":
+	[
+		"SublimeLinter",
+		"Vintage",
+	],
+	"index_files": true,
+	"highlight_line": false,
+	"font_face": "FiraCode Nerd Font Mono",
+	"theme": "auto",
+	"color_scheme": "auto",
+	"dark_theme": "Solarized (dark).sublime-theme",
+	"light_theme": "Solarized (light).sublime-theme",
+	"dark_color_scheme": "Solarized (dark).sublime-color-scheme",
+	"light_color_scheme": "Solarized (light).sublime-color-scheme",
+}
