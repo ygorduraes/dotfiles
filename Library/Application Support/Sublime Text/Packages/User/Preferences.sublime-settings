@@ -1,7 +1,6 @@
 {
 	"ignored_packages":
 	[
-		"SublimeLinter",
 		"Vintage",
 	],
 	"index_files": true,
