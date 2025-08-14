@@ -26,6 +26,7 @@ brew install zsh-syntax-highlighting
 brew install tree
 brew install glow
 brew install dua-cli
+brew install btop
 
 # Docker
 brew install colima
