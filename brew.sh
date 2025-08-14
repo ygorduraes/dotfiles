@@ -27,6 +27,7 @@ brew install tree
 brew install glow
 brew install dua-cli
 brew install btop
+brew install screenfetch
 
 # Docker
 brew install colima
