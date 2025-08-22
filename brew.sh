@@ -48,3 +48,4 @@ brew install http-server
 brew install sqlite
 brew install rainfrog
 brew install gh
+brew intalll git-standup
