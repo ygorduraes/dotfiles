@@ -1,11 +1,6 @@
 {
 	"ignored_packages":
 	[
-		"JsPrettier",
-		"LSP",
-		"LSP-dockerfile",
-		"LSP-typescript",
-		"Terminus",
 		"Vintage",
 	],
 	"index_files": true,
