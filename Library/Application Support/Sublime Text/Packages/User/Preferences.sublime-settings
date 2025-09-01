@@ -8,8 +8,8 @@
 	"font_face": "FiraCode Nerd Font Mono",
 	"theme": "auto",
 	"color_scheme": "auto",
-	"dark_theme": "Solarized (dark).sublime-theme",
-	"light_theme": "Solarized (light).sublime-theme",
-	"dark_color_scheme": "Solarized (dark).sublime-color-scheme",
-	"light_color_scheme": "Solarized (light).sublime-color-scheme",
+	"dark_theme": "gruvbox.sublime-theme",
+	"light_theme": "gruvbox.sublime-theme",
+	"dark_color_scheme": "gruvbox (Dark) (Hard).sublime-color-scheme",
+	"light_color_scheme": "gruvbox (Light) (Hard).sublime-color-scheme",
 }
