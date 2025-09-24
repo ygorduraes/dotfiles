@@ -62,5 +62,8 @@
     "../.github/instructions": true
   },
   "workbench.preferredLightColorTheme": "HBuilderX Soft Green Light",
-  "workbench.preferredDarkColorTheme": "Monokai Pro (Filter Machine)"
+  "workbench.preferredDarkColorTheme": "Monokai Pro (Filter Machine)",
+  "chat.tools.terminal.autoApprove": {
+    "pnpm": true
+  }
 }
