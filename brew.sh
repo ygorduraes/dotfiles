@@ -28,14 +28,13 @@ brew install glow
 brew install dua-cli
 brew install btop
 brew install screenfetch
+brew install exiftool
 
-# Docker
-brew install colima
+# Docker/Podman
 brew install kubectl
-brew install docker
-brew install docker-compose
-brew install docker-buildx
-brew install docker-credential-helper
+brew install podman && podman machine init && sudo podman-mac-helper install && podman machine stop && podman machine start
+brew install podman-compose
+brew install derailed/k9s/k9s
 brew install lazydocker
 
 # Development

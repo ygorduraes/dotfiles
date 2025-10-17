@@ -25,9 +25,8 @@ zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search
 bindkey "^[[B" down-line-or-beginning-search
 
-# Docker
-export DOCKER_BUILDKIT=1
-export DOCKER_HOST="unix://$HOME/.colima/default/docker.sock"
+#Docker
+export DOCKER_HOST=unix:///var/run/docker.sock
 
 # Syntax highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
