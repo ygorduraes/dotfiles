@@ -65,5 +65,6 @@
   "workbench.preferredDarkColorTheme": "Monokai Pro (Filter Machine)",
   "chat.tools.terminal.autoApprove": {
     "pnpm": true
-  }
+  },
+  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.12"
 }
