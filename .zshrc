@@ -25,8 +25,9 @@ zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search
 bindkey "^[[B" down-line-or-beginning-search
 
-#Docker
+#Docker/podman
 export DOCKER_HOST=unix:///var/run/docker.sock
+alias docker=podman
 
 # Syntax highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
