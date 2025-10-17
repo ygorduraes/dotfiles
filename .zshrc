@@ -27,6 +27,7 @@ bindkey "^[[B" down-line-or-beginning-search
 
 #Docker/podman
 export DOCKER_HOST=unix:///var/run/docker.sock
+export KIND_EXPERIMENTAL_PROVIDER=podman
 alias docker=podman
 
 # Syntax highlighting
