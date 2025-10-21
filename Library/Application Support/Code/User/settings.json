@@ -66,5 +66,6 @@
   "chat.tools.terminal.autoApprove": {
     "pnpm": true
   },
-  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.12"
+  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.12",
+  "chat.agent.maxRequests": 100
 }
