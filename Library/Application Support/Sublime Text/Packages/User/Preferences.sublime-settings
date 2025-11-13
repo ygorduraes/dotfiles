@@ -3,7 +3,7 @@
 	[
 		"Vintage",
 	],
-	"index_files": true,
+	"index_files": false,
 	"highlight_line": false,
 	"font_face": "FiraCode Nerd Font Mono",
 	"theme": "auto",
