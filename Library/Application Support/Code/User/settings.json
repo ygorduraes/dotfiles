@@ -62,7 +62,7 @@
     "../.github/instructions": true
   },
   "workbench.preferredLightColorTheme": "HBuilderX Soft Green Light",
-  "workbench.preferredDarkColorTheme": "Monokai Classic",
+  "workbench.preferredDarkColorTheme": "Minimal Kiwi",
   "chat.tools.terminal.autoApprove": {
     "pnpm": true
   },
