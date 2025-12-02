@@ -1,6 +1,7 @@
 \.DS_Store
 ^/plist
 ^/brew.sh
+^/linux.sh
 ^/artisan-settings.aset
 
 RCS
