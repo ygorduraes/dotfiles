@@ -23,7 +23,7 @@ Features dotfiles and configs for:
 
 ```bash
 cd ~
-git clone git@github.com:ygorduraes/dotfiles.git
+git clone https://github.com/ygorduraes/dotfiles.git
 cd dotfiles
 ```
 
