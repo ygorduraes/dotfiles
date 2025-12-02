@@ -21,7 +21,7 @@ brew install nmap
 brew install starship
 brew install webp
 brew install yazi
-brew install bat
+brew install bat && bat cache --build
 brew install zsh-syntax-highlighting
 brew install tree
 brew install glow
@@ -39,7 +39,7 @@ brew install derailed/k9s/k9s
 brew install lazydocker
 
 # Development
-brew instsall pnpm
+brew install pnpm
 brew install lazygit
 brew install nvm
 brew install chruby
