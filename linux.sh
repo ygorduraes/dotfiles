@@ -5,9 +5,9 @@ mkdir -p ~/.local/bin
 
 # apt packages
 sudo apt update
-sudo apt install stow rsync eza fzf tree btop screenfetch ripgrep build-essential unzip
-sudo apt install bat && ln -s /usr/bin/batcat ~/.local/bin/bat && batcat cache --build
-sudo apt install fd-find && ln -s $(which fdfind)
+sudo apt install -y stow rsync eza fzf tree btop screenfetch ripgrep build-essential unzip
+sudo apt install -y bat && ln -s /usr/bin/batcat ~/.local/bin/bat && batcat cache --build
+sudo apt install -y fd-find && ln -s $(which fdfind)
 
 # nvim
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
