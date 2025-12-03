@@ -70,7 +70,7 @@ symbol = "  "
 
 [git_branch]
 symbol = " "
-format = "[$branch]($style) "
+format = "[$symbol]($style)[$branch]($style) "
 style = "bold"
 
 [git_commit]
