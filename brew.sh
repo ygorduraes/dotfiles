@@ -29,6 +29,7 @@ brew install dua-cli
 brew install btop
 brew install screenfetch
 brew install exiftool
+brew install --cask alt-tab
 
 # Docker/Podman
 brew install kubectl
