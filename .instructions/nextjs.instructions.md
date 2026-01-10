@@ -2,6 +2,8 @@
 applyTo: "**/*.ts,**/*.tsx"
 ---
 
+# Typescript and Next.js instructions
+
 - Always use `pnpm` if you need to run commands
 - Use shadcn/ui for every component possible (cards, accordion, sidebar, breadcrumbs, badges, alerts, React Hook Form, charts etc)
 - Avoid creating components from scratch at all costs. Always check the available components in shadcn's MCP registry before trying to create components

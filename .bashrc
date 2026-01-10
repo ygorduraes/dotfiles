@@ -121,6 +121,9 @@ alias l='ls'
 alias ll='ls -alF'
 alias bat="bat --theme bamboo_multiplex"
 
+# OpenCode Shared Config
+export OPENCODE_CONFIG="$HOME/.config/opencode-shared"
+
 # Editor
 export EDITOR=nvim
 

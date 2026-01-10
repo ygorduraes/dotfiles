@@ -18,6 +18,9 @@ alias bat='bat --theme auto:system --theme-dark bamboo_multiplex --theme-light b
 # Config dirs
 export XDG_CONFIG_HOME="$HOME/.config"
 
+# OpenCode Shared Config
+export OPENCODE_CONFIG="$HOME/.config/opencode-shared/opencode.json"
+
 # Editor
 export EDITOR=nvim
 
