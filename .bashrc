@@ -142,6 +142,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 
 # Load .env.local if it exists
-if [ -f .env.local ]; then
-  export $(cat .env.local | grep -v '^#' | xargs)
+if [ -f "$HOME/.env.local" ]; then
+  set -a
+  source "$HOME/.env.local"
+  set +a
 fi

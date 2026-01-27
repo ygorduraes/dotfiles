@@ -1,6 +1,8 @@
 # Load .env.local if it exists
-if [ -f .env.local ]; then
-  export $(cat .env.local | grep -v '^#' | xargs)
+if [ -f "$HOME/.env.local" ]; then
+  set -a
+  source "$HOME/.env.local"
+  set +a
 fi
 
 # Starship
