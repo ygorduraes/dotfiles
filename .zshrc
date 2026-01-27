@@ -1,3 +1,8 @@
+# Load .env.local if it exists
+if [ -f .env.local ]; then
+  export $(cat .env.local | grep -v '^#' | xargs)
+fi
+
 # Starship
 eval "$(starship init zsh)"
 
