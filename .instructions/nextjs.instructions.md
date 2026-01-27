@@ -23,5 +23,5 @@ applyTo: "**/*.ts,**/*.tsx"
 - Prefer `??` over `||` to prevent nulls (adapt the code accordingly)
 - Avoid ternaries unless when conditionally rendering TSX code that contains Javascript/Typescript
 - Always protect props with Readonly
-- If we're working with tests, always write/update the test files after changes
+- If we're working with tests, always write/update the test files after changes, minimum coverage for new code is 80%
 - Always run `pnpm lint` after making changes to see if everything is fine, and `pnpm format` to format the codebase with the code formatter
