@@ -50,4 +50,4 @@ brew install sqlite
 brew install rainfrog
 brew install gh
 brew install git-standup
-brew install opencode
+brew install anomalyco/tap/opencode
