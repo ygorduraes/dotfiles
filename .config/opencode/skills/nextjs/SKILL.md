@@ -1,8 +1,10 @@
 ---
-applyTo: "**/*.ts,**/*.tsx"
+name: Next.js
+description: Define best practices when working with Next.js projects
+license: MIT
 ---
 
-# Typescript and Next.js instructions
+## Typescript and Next.js best practices
 
 - Always use `pnpm` if you need to run commands
 - Use shadcn/ui for every component possible (cards, accordion, sidebar, breadcrumbs, badges, alerts, React Hook Form, charts etc)
@@ -26,3 +28,7 @@ applyTo: "**/*.ts,**/*.tsx"
 - Keep cognitive complexity below 15 for functions and other blocks
 - If we're working with tests, always write/update the test files after changes, minimum coverage for new code is 80%
 - Always run `pnpm lint` after making changes to see if everything is fine, and `pnpm format` to format the codebase with the code formatter
+
+## When to use me
+
+Use this every time you're working on Next.js projects
