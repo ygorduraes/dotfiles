@@ -41,6 +41,7 @@ license: MIT
 - Use TypeScript's utility types (Omit, Pick, Partial, etc.)
 - Define interfaces for component props
 - Use `type` for unions, `interface` for object shapes
+- Maintain type safety - no `any` types unless absolutely necessary
 
 **Imports**: Use `@/` alias for absolute imports (configured in `tsconfig.json`):
 
@@ -48,6 +49,8 @@ license: MIT
 
 **Component Structure**:
 
+- This is a Next.js App Router project (not Pages Router)
+- Prefer server-side data fetching over client-side
 - Use function declarations (not arrow functions) for named exports
 - Server components are default (no directive needed)
 - Use `async` for server components that fetch data
