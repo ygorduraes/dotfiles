@@ -4,7 +4,7 @@ description: Define best practices when working with Next.js projects
 license: MIT
 ---
 
-## Typescript and Next.js best practices
+## Typescript and Next.js general guidelines
 
 - Always use `pnpm` if you need to run commands
 - Use shadcn/ui for every component possible (cards, accordion, sidebar, breadcrumbs, badges, alerts, React Hook Form, charts etc)
@@ -27,7 +27,54 @@ license: MIT
 - Always protect props with Readonly
 - Keep cognitive complexity below 15 for functions and other blocks
 - If we're working with tests, always write/update the test files after changes, minimum coverage for new code is 80%
-- Always run `pnpm lint` after making changes to see if everything is fine, and `pnpm format` to format the codebase with the code formatter
+-Always run `pnpm lint` after making changes to see if everything is fine, and `pnpm format` to format the codebase with the code formatter
+
+## Code Style Guidelines
+
+### TypeScript
+
+**Strict Mode**: Enabled in `tsconfig.json` - all code must satisfy strict type checking.
+
+**Type Definitions**:
+
+- Always provide explicit return types for functions
+- Use TypeScript's utility types (Omit, Pick, Partial, etc.)
+- Define interfaces for component props
+- Use `type` for unions, `interface` for object shapes
+
+**Imports**: Use `@/` alias for absolute imports (configured in `tsconfig.json`):
+
+### React & Next.js
+
+**Component Structure**:
+
+- Use function declarations (not arrow functions) for named exports
+- Server components are default (no directive needed)
+- Use `async` for server components that fetch data
+
+**Props**:
+
+- Use `React.ComponentProps<T>` to extend built-in element props
+- Destructure props with default values in function signature
+
+### Naming Conventions
+
+**Files**:
+
+- Components: `kebab-case.tsx` (e.g., `theme-toggle.tsx`)
+- Pages: `page.tsx`, `layout.tsx`, `loading.tsx`, `error.tsx`
+- Utils: `kebab-case.ts` (e.g., `supabase-client.ts`)
+
+**Variables & Functions**:
+
+- camelCase for variables and functions
+- PascalCase for components and types
+- SCREAMING_SNAKE_CASE for constants
+
+### Environment Variables
+
+- Store in `.env.local` if needed (gitignored)
+- Access via `process.env.VARIABLE_NAME` in a declared const
 
 ## When to use me
 
