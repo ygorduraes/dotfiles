@@ -3,6 +3,9 @@ name: SwiftUI
 description: Define best practices when working with SwiftUI projects
 license: MIT
 ---
+## When to use me
+
+Use this every time you're working on SwiftUI projects
 
 ## Overall guidelines
 
@@ -46,7 +49,3 @@ Document all public APIs, complex logic, and non-obvious implementations.
 - **Modern Swift features enabled**: Previews (multiple per UI state if necessary), asset symbols, string catalogs
 - **Automatic Info.plist generation** - no manual plist editing needed
 - **Code signing**: Automatic
-
-## When to use me
-
-Use this every time you're working on SwiftUI projects
