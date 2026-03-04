@@ -51,3 +51,4 @@ brew install rainfrog
 brew install gh
 brew install git-standup
 brew install anomalyco/tap/opencode
+brew install libpq
