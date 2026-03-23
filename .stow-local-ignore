@@ -2,6 +2,7 @@
 ^/plist
 ^/brew.sh
 ^/linux.sh
+^/uv.sh
 ^/artisan-settings.aset
 
 RCS
