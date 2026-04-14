@@ -16,6 +16,7 @@ Use this every time you're working on SwiftUI projects
 - When creating classes and functions, write some documentation explaining what they do (no need to be too long, but the minimum to have some context)
 - Always check if you're using non-deprecated code, based on the iOS target
 - Always use context7 when I need code generation, setup or configuration steps, or library/API documentation. This means you should automatically use the Context7 MCP tools to resolve library id and get library docs without me having to explicitly ask
+- Never make changes on other repos other than the one you're working on unless specifically told to
 
 ## SwiftUI Patterns
 
