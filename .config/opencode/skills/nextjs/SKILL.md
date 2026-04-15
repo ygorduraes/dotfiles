@@ -13,7 +13,7 @@ Use this every time you're working on Next.js projects
 - Always use `pnpm` if you need to run commands
 - Don't overengineer. Be as simple as possible (KISS), refactor most of the code to simplify it if necessary
 - Always run `pnpm lint` after making changes to see if everything is fine, and `pnpm format` to format the codebase with the code formatter
-- Never make changes on other repos other than the one you're working on unless specifically told to
+- Never make changes on other repos other than the one you're working on, or to databases unless specifically told to
 
 ## UI Components & Styling
 
