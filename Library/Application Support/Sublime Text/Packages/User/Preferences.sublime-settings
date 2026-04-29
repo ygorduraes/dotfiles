@@ -9,7 +9,7 @@
 	"theme": "auto",
 	"color_scheme": "auto",
 	"dark_theme": "gruvbox.sublime-theme",
-	"light_theme": "gruvbox.sublime-theme",
+	"light_theme": "GitHub Light.sublime-theme",
 	"dark_color_scheme": "gruvbox (Dark) (Hard).sublime-color-scheme",
-	"light_color_scheme": "gruvbox (Light) (Hard).sublime-color-scheme",
+	"light_color_scheme": "GitHub Light.sublime-color-scheme",
 }
