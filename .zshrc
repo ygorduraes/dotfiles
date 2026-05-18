@@ -37,9 +37,10 @@ bindkey "^[[A" up-line-or-beginning-search
 bindkey "^[[B" down-line-or-beginning-search
 
 #Docker/podman
-export DOCKER_HOST=unix:///var/run/docker.sock
-export KIND_EXPERIMENTAL_PROVIDER=podman
-#alias docker=podman
+# export DOCKER_HOST=unix:///var/run/docker.sock
+# export KIND_EXPERIMENTAL_PROVIDER=podman
+export DOCKER_BUILDKIT=1
+export DOCKER_HOST="unix://$HOME/.colima/default/docker.sock"
 
 # Syntax highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
