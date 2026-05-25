@@ -35,8 +35,12 @@ brew install yt-dlp
 # Docker/Podman
 brew install kubectl
 brew install docker-credential-helper
-brew install podman && podman machine init --cpus 4 --memory 4096 && sudo podman-mac-helper install && sudo ln -s $(which podman) /usr/local/bin/docker && podman machine stop && podman machine start
-brew install podman-compose
+brew install colima
+brew install docker
+brew install docker-compose
+brew install docker-buildx
+# brew install podman && podman machine init --cpus 4 --memory 4096 && sudo podman-mac-helper install && sudo ln -s $(which podman) /usr/local/bin/docker && podman machine stop && podman machine start
+# brew install podman-compose
 brew install derailed/k9s/k9s
 brew install lazydocker
 
