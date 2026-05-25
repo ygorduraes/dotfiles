@@ -16,6 +16,9 @@ case ":$PATH:" in
 esac
 # pnpm end
 
+# next.js
+export NEXT_TELEMETRY_DISABLED=1
+
 # Aliases
 alias ls='eza -a --icons -F -H --group-directories-first --git -1'
 alias l='ls'
