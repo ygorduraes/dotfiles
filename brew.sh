@@ -15,6 +15,7 @@ brew install --cask ghostty
 brew install rsync
 brew install eza
 brew install fd
+brew install rg
 brew install fzf
 brew install imagemagick
 brew install nmap
