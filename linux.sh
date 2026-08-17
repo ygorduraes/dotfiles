@@ -9,6 +9,10 @@ sudo apt install -y stow rsync eza fzf tree btop screenfetch ripgrep build-essen
 sudo apt install -y bat && ln -s /usr/bin/batcat ~/.local/bin/bat && batcat cache --build
 sudo apt install -y fd-find && ln -s $(which fdfind)
 
+# docker
+sudo apt install -y docker.io docker-compose-v2 docker-buildx && sudo usermod -aG docker $(whoami)
+curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
+
 # nvim
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
 sudo rm -rf /opt/nvim-linux-x86_64
@@ -26,6 +30,3 @@ LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/re
 curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/v${LAZYGIT_VERSION}/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
 tar xf lazygit.tar.gz lazygit
 sudo install lazygit -D -t /usr/local/bin/
-
-# lazydocker
-curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
