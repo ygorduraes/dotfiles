@@ -15,7 +15,7 @@ sudo rm -rf /opt/nvim-linux-x86_64
 sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
 
 # starship (check FiraCode font version from time to time)
-curl -L0 https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip
+curl -L0 https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.0/FiraCode.zip
 mkdir ~/.fonts
 unzip FiraCode.zip -d ~/.fonts
 fc-cache -fv
