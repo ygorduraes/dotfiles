@@ -21,11 +21,9 @@ brew install imagemagick
 brew install nmap
 brew install starship
 brew install webp
-brew install yazi
 brew install bat && bat cache --build
 brew install zsh-syntax-highlighting
 brew install tree
-brew install glow
 brew install dua-cli
 brew install btop
 brew install screenfetch
@@ -54,7 +52,7 @@ brew install uv
 brew install http-server
 brew install sqlite
 brew install rainfrog
-brew install gh
+brew install gh && gh extension install github/gh-stack
 brew install git-standup
 brew install anomalyco/tap/opencode
 brew install libpq
