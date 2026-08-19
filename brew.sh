@@ -30,6 +30,7 @@ brew install screenfetch
 brew install exiftool
 brew install --cask alt-tab
 brew install yt-dlp
+brew install tuxedo
 
 # Docker/Podman
 brew install kubectl
