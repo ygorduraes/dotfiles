@@ -54,6 +54,7 @@ brew install http-server
 brew install sqlite
 brew install rainfrog
 brew install gh && gh extension install github/gh-stack
+brew install jiratui
 brew install git-standup
 brew install anomalyco/tap/opencode
 brew install libpq

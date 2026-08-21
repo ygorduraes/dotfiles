@@ -1,0 +1,9 @@
+enable_updating_additional_fields: true
+theme: "gruvbox"
+key_bindings_style: 'standard'
+search_on_startup: true
+pre_defined_jql_expressions:
+    1:  {
+            "label": "My stuff",
+            "expression": "status != 'closed' order by created asc"
+    }

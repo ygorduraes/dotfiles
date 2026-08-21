@@ -4,6 +4,7 @@
 ^/linux.sh
 ^/uv.sh
 ^/artisan-settings.aset
+^/opencode-config.json
 
 RCS
 .+,v
