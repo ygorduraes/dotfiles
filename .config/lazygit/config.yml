@@ -79,6 +79,13 @@ customCommands:
             output: terminal
             after:
               checkForConflicts: true
+          - key: 'm'
+            context: 'global'
+            description: 'Merge the stack            │ [merge] Merge the stack'
+            command: 'gh stack merge'
+            output: terminal
+            after:
+              checkForConflicts: true
 
       - key: 'g'
         description: 'Go to another layer'
