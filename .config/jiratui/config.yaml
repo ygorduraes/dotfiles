@@ -5,5 +5,5 @@ search_on_startup: true
 pre_defined_jql_expressions:
     1:  {
             "label": "My stuff",
-            "expression": "status != 'closed' order by created asc"
+            "expression": "status != 'closed' order by created desc"
     }
