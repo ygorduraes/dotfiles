@@ -119,7 +119,7 @@ fi
 alias ls='eza -a --icons -F -H --group-directories-first --git -1'
 alias l='ls'
 alias ll='ls -alF'
-alias bat="bat --theme bamboo_multiplex"
+alias bat="bat"
 
 # Editor
 export EDITOR=nvim
