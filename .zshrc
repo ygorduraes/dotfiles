@@ -24,6 +24,8 @@ alias ls='eza -a --icons -F -H --group-directories-first --git -1'
 alias l='ls'
 alias ll='ls -alF'
 alias bat='bat'
+alias rm='trash'
+alias ncdu='ncdu --delete-command '\''trash '\'''
 
 # Config dirs
 export XDG_CONFIG_HOME="$HOME/.config"

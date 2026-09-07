@@ -31,6 +31,8 @@ brew install exiftool
 brew install --cask alt-tab
 brew install yt-dlp
 brew install tuxedo
+brew install ncdu
+brew install macos-trash
 
 # Docker/Podman
 brew install kubectl
