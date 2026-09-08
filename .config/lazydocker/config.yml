@@ -1,0 +1,7 @@
+customCommands:
+  containers:
+    - name: shell
+      attach: true
+      command:
+        docker exec -it {{ .Container.ID }} sh -c 'for SH in $(echo bash sh); do if (eval $SH); then exit 0; fi; done || exit 1'
+      serviceNames: []
