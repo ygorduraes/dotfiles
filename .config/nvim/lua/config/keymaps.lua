@@ -6,6 +6,11 @@ local wk = require("which-key")
 
 wk.add({
   {
+    "<leader>co",
+    desc = "Okloch",
+    icon = "",
+  },
+  {
     "<leader>r",
     desc = "Register actions",
     icon = "",
