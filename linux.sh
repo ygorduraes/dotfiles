@@ -5,7 +5,7 @@ mkdir -p ~/.local/bin
 
 # apt packages
 sudo apt update
-sudo apt install -y stow rsync eza fzf tree btop screenfetch ripgrep build-essential unzip
+sudo apt install -y stow rsync eza fzf tree btop screenfetch ripgrep build-essential unzip tmux-plugin-manager
 sudo apt install -y bat && ln -s /usr/bin/batcat ~/.local/bin/bat && batcat cache --build
 sudo apt install -y fd-find && ln -s $(which fdfind)
 
