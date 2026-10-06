@@ -33,6 +33,7 @@ brew install yt-dlp
 brew install tuxedo
 brew install ncdu
 brew install macos-trash
+brew install visidata
 
 # Docker/Podman
 brew install kubectl
