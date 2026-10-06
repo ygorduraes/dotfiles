@@ -45,6 +45,7 @@
 background-opacity = 0.97
 # background-blur = 20
 unfocused-split-opacity = 0.9
+macos-option-as-alt = true
 keybind = super+shift+s=toggle_split_zoom
 keybind = shift+enter=text:\n
 keybind = global:cmd+option+t=toggle_quick_terminal
