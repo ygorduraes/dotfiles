@@ -20,9 +20,9 @@ esac
 export NEXT_TELEMETRY_DISABLED=1
 
 # Aliases
-alias ls='eza -s date -a --icons -F -H --group-directories-first --git -1'
+alias ls='eza -a --icons -F -H --group-directories-first --git -1 -s date'
 alias l='ls'
-alias ll='ls -alF'
+alias ll='ls -alF -s date -h'
 alias bat='bat'
 alias rm='trash'
 alias ncdu='ncdu --delete-command '\''trash '\'''
