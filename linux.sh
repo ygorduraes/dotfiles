@@ -33,3 +33,4 @@ sudo install lazygit -D -t /usr/local/bin/
 
 # zellij
 source install-zellij.sh
+source zellij-tab-title.sh
