@@ -65,4 +65,4 @@ export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 export OPENCODE_CONFIG=~/dotfiles/opencode-config.json
 
 # auto rename zellij tabs
-source zellij-tab-title.zsh
+source $HOME/zellij-tab-title.zsh
