@@ -1,10 +1,11 @@
 \.DS_Store
 ^/plist
-^/brew.sh
+^/mac.sh
 ^/linux.sh
 ^/uv.sh
 ^/artisan-settings.aset
 ^/opencode-config.json
+^/install-zellij.sh
 
 RCS
 .+,v
