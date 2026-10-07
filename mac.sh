@@ -34,6 +34,7 @@ brew install tuxedo
 brew install ncdu
 brew install macos-trash
 brew install visidata
+brew install zellij
 
 # Docker/Podman
 brew install kubectl

@@ -5,6 +5,9 @@ if [ -f "$HOME/.env.local" ]; then
   set +a
 fi
 
+# for zellij
+export PATH="/usr/local/bin:/opt/homebrew/bin:$PATH"
+
 # Starship
 eval "$(starship init zsh)"
 

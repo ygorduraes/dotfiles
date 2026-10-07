@@ -45,10 +45,10 @@
 background-opacity = 0.97
 # background-blur = 20
 unfocused-split-opacity = 0.9
-macos-option-as-alt = true
+macos-option-as-alt = left
 keybind = super+shift+s=toggle_split_zoom
 keybind = shift+enter=text:\n
 keybind = global:cmd+option+t=toggle_quick_terminal
 # theme = dark:bamboo-multiplex,light:bamboo-light
 theme = dark:Gruvbox Dark,light:Gruvbox Light
-
+command=/opt/homebrew/bin/zellij
