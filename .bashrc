@@ -144,3 +144,6 @@ if [ -f "$HOME/.env.local" ]; then
   source "$HOME/.env.local"
   set +a
 fi
+
+# zellij
+source zellij-tab-title.sh
