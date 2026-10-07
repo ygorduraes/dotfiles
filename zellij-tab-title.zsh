@@ -27,7 +27,9 @@ function set_tab_to_working_dir() {
 
 function set_tab_to_command_line() {
   local cmdline=$1
-  change_tab_title $cmdline
+  local command=${cmdline##[[:space:]]#}
+  command=${command%%[[:space:]]*}
+  change_tab_title "$command"
 }
 
 if [[ -n $ZELLIJ ]]; then
