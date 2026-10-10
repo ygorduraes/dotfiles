@@ -145,5 +145,8 @@ if [ -f "$HOME/.env.local" ]; then
   set +a
 fi
 
+# opencode
+export PATH=$HOME/.opencode/bin:$PATH
+
 # zellij
 source $HOME/zellij-tab-title.sh
