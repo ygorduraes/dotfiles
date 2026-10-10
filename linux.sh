@@ -5,7 +5,7 @@ mkdir -p ~/.local/bin
 
 # apt packages
 sudo apt update
-sudo apt install -y stow rsync eza fzf tree btop screenfetch ripgrep build-essential unzip
+sudo apt install -y stow rsync eza fzf tree btop screenfetch ripgrep build-essential unzip ufw
 sudo apt install -y bat && ln -s /usr/bin/batcat ~/.local/bin/bat && batcat cache --build
 sudo apt install -y fd-find && ln -s $(which fdfind)
 
@@ -23,6 +23,12 @@ curl -sS https://starship.rs/install.sh | sh
 
 # zellij
 source install-zellij.sh
+
+# basic ufw rules
+sudo ufw allow 60000:61000/udp
+sudo ufw allow OpenSSH
+sudo ufw allow ssh
+sudo ufw allow http
 
 # Map the host architecture to the release asset names used below
 case "$(uname -m)" in
