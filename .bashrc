@@ -128,7 +128,7 @@ export EDITOR=nvim
 eval "$(starship init bash)"
 
 # nvim
-export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+export PATH="$PATH:/opt/nvim/bin"
 
 # lazydocker
 export PATH="$PATH:$HOME/.local/bin"
@@ -146,4 +146,4 @@ if [ -f "$HOME/.env.local" ]; then
 fi
 
 # zellij
-source zellij-tab-title.sh
+source $HOMR/zellij-tab-title.sh
