@@ -146,4 +146,4 @@ if [ -f "$HOME/.env.local" ]; then
 fi
 
 # zellij
-source $HOMR/zellij-tab-title.sh
+source $HOME/zellij-tab-title.sh
