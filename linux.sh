@@ -29,6 +29,7 @@ sudo ufw allow 60000:61000/udp
 sudo ufw allow OpenSSH
 sudo ufw allow ssh
 sudo ufw allow http
+sudo ufw allow 443/tcp
 
 # Map the host architecture to the release asset names used below
 case "$(uname -m)" in
