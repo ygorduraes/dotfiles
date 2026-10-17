@@ -47,12 +47,9 @@ brew install derailed/k9s/k9s
 brew install lazydocker
 
 # Development
-curl -fsSL https://get.pnpm.io/install.sh | sh -
 brew install lazygit
-brew install nvm
 brew install chruby
 brew install uv
-brew install http-server
 brew install sqlite
 brew install rainfrog
 brew install gh && gh extension install github/gh-stack && gh extension install dlvhdr/gh-dash
