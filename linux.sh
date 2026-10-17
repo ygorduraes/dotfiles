@@ -31,6 +31,14 @@ sudo ufw allow ssh
 sudo ufw allow http
 sudo ufw allow 443/tcp
 
+## node and nvm
+NVM_VERSION=$(curl -fsSL https://api.github.com/repos/nvm-sh/nvm/releases/latest | sed -n 's/.*"tag_name": "\([^"]*\)".*/\1/p')
+curl -o- "https://raw.githubusercontent.com/nvm-sh/nvm/${NVM_VERSION}/install.sh" | bash
+\. "$HOME/.nvm/nvm.sh"
+nvm install 26
+corepack enable pnpm
+## end node and nvm
+
 # Map the host architecture to the release asset names used below
 case "$(uname -m)" in
 x86_64 | amd64) ARCH=x86_64 ;;

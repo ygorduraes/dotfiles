@@ -49,6 +49,11 @@ brew install lazydocker
 # Development
 brew install lazygit
 brew install chruby
+NVM_VERSION=$(curl -fsSL https://api.github.com/repos/nvm-sh/nvm/releases/latest | sed -n 's/.*"tag_name": "\([^"]*\)".*/\1/p')
+curl -o- "https://raw.githubusercontent.com/nvm-sh/nvm/${NVM_VERSION}/install.sh" | bash
+\. "$HOME/.nvm/nvm.sh"
+nvm install 26
+corepack enable pnpm
 brew install uv
 brew install sqlite
 brew install rainfrog
