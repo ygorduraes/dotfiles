@@ -113,7 +113,7 @@ fi
 # Aliases
 alias ls='eza -a --icons -F -H --group-directories-first --git -1'
 alias l='ls'
-alias ll='ls -alF'
+alias ll='ls -alF -s date -h'
 alias bat="bat"
 
 # Editor
