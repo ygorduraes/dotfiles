@@ -142,6 +142,7 @@ fi
 
 # opencode
 export PATH=$HOME/.opencode/bin:$PATH
+export OPENCODE_CONFIG=~/dotfiles/opencode-config.json
 
 # zellij
 source $HOME/zellij-tab-title.sh
