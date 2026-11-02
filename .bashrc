@@ -144,6 +144,9 @@ fi
 export PATH=$HOME/.opencode/bin:$PATH
 export OPENCODE_CONFIG=~/dotfiles/opencode-config.json
 
+# stripe
+export PATH=$HOME/.stripe/bin:$PATH
+
 # zellij
 source $HOME/zellij-tab-title.sh
 
