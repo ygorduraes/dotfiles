@@ -61,8 +61,5 @@ export NVM_DIR="$HOME/.nvm"
 # Postgres client
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
-# opencode custom config
-export OPENCODE_CONFIG=~/dotfiles/opencode-config.json
-
 # auto rename zellij tabs
 source $HOME/zellij-tab-title.zsh

@@ -143,7 +143,6 @@ fi
 
 # opencode
 export PATH=$HOME/.opencode/bin:$PATH
-export OPENCODE_CONFIG=~/dotfiles/opencode-config.json
 
 # stripe
 export PATH=$HOME/.stripe/bin:$PATH
