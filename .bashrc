@@ -118,6 +118,7 @@ alias bat="bat"
 
 # Editor
 export EDITOR=nvim
+export SYSTEMD_EDITOR=vim
 
 # starship
 eval "$(starship init bash)"
